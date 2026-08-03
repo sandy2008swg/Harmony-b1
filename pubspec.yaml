@@ -1,0 +1,56 @@
+name: harmony
+description: "Harmony — музичний плеєр"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.6.1
+  go_router: ^16.0.0
+
+  # UI
+  google_fonts: ^6.3.0
+  flutter_svg: ^2.2.0
+  cupertino_icons: ^1.0.8
+  cached_network_image: ^3.4.1
+
+  # Медіа-плеєр
+  media_kit: ^1.1.11
+  media_kit_libs_windows_video: ^1.0.5
+
+  # YouTube
+  youtube_explode_dart: ^3.1.0
+
+  # Мережа
+  dio: ^5.7.0
+
+  # База даних (ОДИН раз!)
+  sqflite: ^2.3.3+1
+  sqflite_common_ffi: ^2.3.3
+
+  # Локальне зберігання
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  shared_preferences: ^2.3.2
+
+  # Утиліти
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/covers/
+    - assets/icons/
+    - assets/images/
+    - assets/logo/
